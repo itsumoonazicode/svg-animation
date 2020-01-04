@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	background-color: #1C6C85;
+}
+
+.logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: fills 2s ease forwards 3s;
+}
+
+.logo > path:nth-of-type(1) {
+	stroke-dasharray: 1142;
+	stroke-dashoffset: 1142;
+	animation: line-anime 2s ease forwards;
+}
+.logo > path:nth-of-type(2) {
+	stroke-dasharray: 855;
+	stroke-dashoffset: 855;	
+	animation: line-anime 2s ease forwards;
+}
+.logo > path:nth-of-type(3) {
+	stroke-dasharray: 801;
+	stroke-dashoffset: 801;
+	animation: line-anime 3s ease forwards;
+}
+.logo > path:nth-of-type(4) {
+	stroke-dasharray: 449;
+	stroke-dashoffset: 449;
+	animation: line-anime 5s ease forwards;
+}
+.logo > path:nth-of-type(5) {
+	stroke-dasharray: 1146;
+	stroke-dashoffset: 1146;
+	animation: line-anime 7s ease forwards;
+}
+.logo > path:nth-of-type(6) {
+	stroke-dasharray: 768;
+	stroke-dashoffset: 768;
+	animation: line-anime 1s linear forwards;
+}
+.logo > path:nth-of-type(7) {
+	stroke-dasharray: 855;
+	stroke-dashoffset: 855;
+	animation: line-anime .4s ease-in-out forwards;
+}
+.logo > path:nth-of-type(8) {
+	stroke-dasharray: 479;
+	stroke-dashoffset: 479;
+	animation: line-anime 2s ease-out forwards;
+}
+
+@keyframes line-anime {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+@keyframes fills {
+	from {
+		fill: transparent;
+	}
+	to {
+		fill: #fff;
+	}
+}
