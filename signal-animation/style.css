@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+}
+
+#red-signal {
+	animation: red-blink 1s linear 3;
+}
+#blue-signal {
+	animation: blue-light 1s linear 3s forwards;
+}
+
+
+@keyframes red-blink {
+	to {
+		fill: #f25f5f;
+	}
+}
+@keyframes blue-light {
+	to {
+		fill: #3cce6c;
+	}
+}
