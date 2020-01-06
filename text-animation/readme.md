@@ -1,4 +1,4 @@
-# figmaで書き出したSVGをCSSでアニメーション
+# テキストアニメーション
 
 - `stroke-dasharray`
 - `stroke-dashoffset`
