@@ -14,3 +14,8 @@
 
 > ショートハンドでまとめて記述する場合は、「animation: name duration timing-function delay iteration-count
 > direction fill-mode」の順に記述し、省略された値は初期値となります。
+
+
+# 完成したものがこれ
+
+![アニメーションgif](https://raw.githubusercontent.com/itsumoonazicode/svg-animation/master/signal-animation/3ef734b8e723c1d1501501a02ddd3980.gif)
